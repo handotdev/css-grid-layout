@@ -1,0 +1,34 @@
+<!-- Flexbox is 1 dimensional
+CSS grid is 2 dimensional -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Grids</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+        }
+
+        .wrapper > div {
+            background: #eee;
+            padding: 1em;
+        }
+
+        .wrapper > div:nth-child(odd) {
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, quas distinctio quos doloribus sit, cupiditate beatae omnis amet maxime expedita odit officia neque, quae recusandae repellendus id facere temporibus. Earum, alias quis deserunt mollitia eos perferendis omnis aspernatur iusto asperiores natus sapiente doloribus, voluptates neque nam est a, tempora labore tenetur recusandae consequatur atque minima laudantium! Nam repellendus expedita ullam! Quaerat pariatur perferendis sed non ex unde a architecto repellendus repellat, rem officia, quae sunt sapiente harum ut incidunt repudiandae.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis laboriosam enim fugiat, ex ipsa non sit quod reiciendis, vel, numquam ullam placeat aperiam libero. Consequuntur voluptatibus sunt reiciendis vitae perspiciatis?
+        </div>
+    </div>
+</body>
+</html>
